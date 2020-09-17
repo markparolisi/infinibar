@@ -8,16 +8,17 @@ SolidColor=#colorBackground#
 
 [Variables]
 fontName="Accidental Presidency"
+;fontName="Franklin Gothic"
 fontSizeMult=0.78
 
 ;general dimensions
 paddingX=4
-fullWidth=72
+fullWidth=80
 
 ;Heights: 
 ;If you use a horizontal layout, you should change this to the same number!
 fullHeightGeneric=77
-fullHeightHDD=89
+fullHeightHDD=70
 fullHeightTemp=45
 fullHeightButton=36
 
@@ -62,7 +63,6 @@ buttonY=4
 FontColor=#colorText#
 FontSize=(Floor(43*#fontSizeMult#))
 Y=#titleY#
-W=#titleW#
 H=50
 
 StringCase=None

@@ -46,10 +46,6 @@ MeterStyle=styleTitle
 Text=#disk#
 LeftMouseUpAction=["#disk#\"]
 
-[meterAccessBarDisk1]
-Meter=Image
-DynamicVariables=1
-MeterStyle=styleAccessBar
 
 [meterValueDisk1perc]
 Meter=String
@@ -60,12 +56,14 @@ Text=%1%
 NumOfDecimals=0
 Percentual=1
 LeftMouseUpAction=["#disk#\"]
+Y=22r
 
 [meterBarDisk1]
 Meter=Bar
 MeterStyle=styleBar
 MeasureName=measureUsedDisk
 LeftMouseUpAction=["#disk#\"]
+Y=25r
 
 [meterValueDisk1]
 Meter=String
@@ -76,3 +74,7 @@ Text=%1/%2
 NumOfDecimals=0
 AutoScale=1
 LeftMouseUpAction=["#disk#\"]
+StringAlign=Left
+StringCase=Lower
+X=0r
+Y=15r
