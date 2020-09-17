@@ -74,7 +74,9 @@ Text=%1/%2
 NumOfDecimals=0
 AutoScale=1
 LeftMouseUpAction=["#disk#\"]
-StringAlign=Left
-StringCase=Lower
-X=0r
+StringAlign=Right
+StringCase=Upper
+X=(#fullWidth#-4)
 Y=15r
+FontFace="BigNoodleToo"
+

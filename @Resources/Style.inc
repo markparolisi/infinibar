@@ -7,8 +7,8 @@ BackgroundMode=2
 SolidColor=#colorBackground#
 
 [Variables]
-fontName="Accidental Presidency"
-;fontName="Franklin Gothic"
+;fontName="Accidental Presidency"
+fontName="BigNoodleToo"
 fontSizeMult=0.78
 
 ;general dimensions
