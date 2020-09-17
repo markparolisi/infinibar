@@ -59,10 +59,8 @@ buttonY=4
 
 [styleTitle]
 ;SolidColor=255,0,255,255
-StringAlign=Center
 FontColor=#colorText#
 FontSize=(Floor(43*#fontSizeMult#))
-X=#titleX#
 Y=#titleY#
 W=#titleW#
 H=50
@@ -92,7 +90,6 @@ ClipString=0
 
 [styleTemp]
 ;SolidColor=255,128,128,255
-StringAlign=Left
 FontColor=#colorText#
 FontSize=(Floor(20*#fontSizeMult#))
 

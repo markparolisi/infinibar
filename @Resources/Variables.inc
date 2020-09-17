@@ -12,20 +12,19 @@ TaskbarH=1440
 ; Colors
 ; -----------
 
-colorText=255,255,255,255
-;colorBackground=16,16,16,255
+colorText=0,0,0,255
 colorBackground=0,0,0,1
-colorHoverBackground=255,255,255,25
+colorHoverBackground=255,255,255,255
 
 colorBar=255,255,255,255
-colorBarBackground=51,51,51,255
+colorBarBackground=0,0,0,255
 
 ; -----------
 ; Clock
 ; -----------
 
 ;More info: https://docs.rainmeter.net/manual/measures/time/#FormatCodes
-dateFormat=%y.%m.%d.
+dateFormat=%y.%m.%d
 timeFormat=%H:%M
 weekdayFormat=%A
 
