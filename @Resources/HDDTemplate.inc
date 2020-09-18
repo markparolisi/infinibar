@@ -56,14 +56,16 @@ Text=%1%
 NumOfDecimals=0
 Percentual=1
 LeftMouseUpAction=["#disk#\"]
-Y=22r
+Y=16r
+FontSize=(Floor(25*#fontSizeMult#))
+
 
 [meterBarDisk1]
 Meter=Bar
 MeterStyle=styleBar
 MeasureName=measureUsedDisk
 LeftMouseUpAction=["#disk#\"]
-Y=25r
+Y=27r
 
 [meterValueDisk1]
 Meter=String
@@ -78,5 +80,4 @@ StringAlign=Right
 StringCase=Upper
 X=(#fullWidth#-4)
 Y=15r
-FontFace="BigNoodleToo"
 
