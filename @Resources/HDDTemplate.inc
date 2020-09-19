@@ -38,7 +38,7 @@ UpdateDivider=10
 [meterBg]
 Meter=Image
 meterStyle=styleBg
-H=(#fullHeightHDD#-7)
+H=(#fullHeightHDD#)
 
 [meterLabelDisk1]
 Meter=String
