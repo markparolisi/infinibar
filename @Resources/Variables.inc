@@ -12,20 +12,19 @@ TaskbarH=1440
 ; Colors
 ; -----------
 
-colorText=255,255,255,255
-;colorBackground=16,16,16,255
+colorText=0,0,0,255
 colorBackground=0,0,0,1
-colorHoverBackground=255,255,255,25
+colorHoverBackground=255,255,255,100
 
-colorBar=255,255,255,255
-colorBarBackground=51,51,51,255
+colorBar=255,232,31,255
+colorBarBackground=0,0,0,255
 
 ; -----------
 ; Clock
 ; -----------
 
 ;More info: https://docs.rainmeter.net/manual/measures/time/#FormatCodes
-dateFormat=%y.%m.%d.
+dateFormat=%y.%m.%d
 timeFormat=%H:%M
 weekdayFormat=%A
 
@@ -33,7 +32,7 @@ weekdayFormat=%A
 ; Weather
 ; -----------
 
-weatherClickUrl=https://www.idokep.hu
+weatherClickUrl=https://weather.com/weather/hourbyhour/l/Yonkers+NY?canonicalCityId=01e63733bb0717da50cc4be0b6527e7689316d3f09cf2cc5234b67633ccb1aad
 ; register on https://openweathermap.org to get your free api key. This is mine, if it's not working, request your own!
 openweathermapApiKey=f876d352020c6490d27b248538c6d261
 ; city name and country code divided by comma, use ISO 3166 country codes:
@@ -53,10 +52,10 @@ volumeClick="C:\Users\gyetpet\Documents\_git\batch2\changeSoundOut.bat"
 ; -----------
 ; CPU
 ; -----------
-
-HWiNFO-CPU0-DTS-SensorId=0xf0000501
+u-Degree=[\x00B0]
+HWiNFO-CPU0-DTS-SensorId=0xf0000400
 HWiNFO-CPU0-DTS-SensorInstance=0x0
-HWiNFO-CPU0-DTS-Core0temp=0x1000000
+HWiNFO-CPU0-DTS-Core0temp=0x10000fe
 speedfanCpuTempNumber=2
 speedfanCpuTempUnit=C
 cpuClick="taskmgr.exe"

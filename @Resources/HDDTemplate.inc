@@ -38,7 +38,7 @@ UpdateDivider=10
 [meterBg]
 Meter=Image
 meterStyle=styleBg
-H=(#fullHeightHDD#-7)
+H=(#fullHeightHDD#)
 
 [meterLabelDisk1]
 Meter=String
@@ -46,10 +46,6 @@ MeterStyle=styleTitle
 Text=#disk#
 LeftMouseUpAction=["#disk#\"]
 
-[meterAccessBarDisk1]
-Meter=Image
-DynamicVariables=1
-MeterStyle=styleAccessBar
 
 [meterValueDisk1perc]
 Meter=String
@@ -60,12 +56,16 @@ Text=%1%
 NumOfDecimals=0
 Percentual=1
 LeftMouseUpAction=["#disk#\"]
+Y=16r
+FontSize=(Floor(25*#fontSizeMult#))
+
 
 [meterBarDisk1]
 Meter=Bar
 MeterStyle=styleBar
 MeasureName=measureUsedDisk
 LeftMouseUpAction=["#disk#\"]
+Y=27r
 
 [meterValueDisk1]
 Meter=String
@@ -76,3 +76,8 @@ Text=%1/%2
 NumOfDecimals=0
 AutoScale=1
 LeftMouseUpAction=["#disk#\"]
+StringAlign=Right
+StringCase=Upper
+X=(#fullWidth#-4)
+Y=15r
+
